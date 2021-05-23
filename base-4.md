@@ -34,7 +34,7 @@ Tips
   
 ### 3.2 translate
 一般用法：
-```html
+```css
 translateX(50px,50px);
 translateY(50%,50%)
 translate(50%,50%)
@@ -45,14 +45,14 @@ Tips
 
 ### 3.3 scale
 一般用法：
-```html
+```css
 scaleX(1.2);
 scaleX(50%);
 ``` 
 
 ### 3.4 rotate
 一般用法：
-```html
+```css
 rotate(15deg);
 rotateX(30deg);
 rotateY(45deg);
@@ -61,34 +61,34 @@ rotateZ(60deg);
   
 ### 3.5 skew
 一般用法：
-```html
+```css
 skewX(15deg);
 skewY(30deg);
 skewZ(45deg);
 ``` 
 ### 3.6 Transform组合
 一般用法：
-```html
+```css
 transform:scale(0.3) translate(50%,50%);
 ``` 
 ## 4.Transition
 过渡 *transition* 用于补充2个变化之间的中间帧
 语法是
-```html
+```css
 transition:属性名 时长 过渡方式 延迟
 ``` 
 范例
-```html
+```css
 transition: transform 1s linear 2s
 ``` 
 
 ## 4.Animation
 当超过了2个节点的时候就需要animation配合@keyframes
-```html
+```css
 animation:时长丨过渡方式丨延迟丨次数丨方向丨填充模式丨是否暂停丨动画名
 ``` 
 范例
-```html
+```css
 .out {
             animation: jump 1s infinite ease;
         }
